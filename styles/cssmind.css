@@ -1,11 +1,18 @@
-/* Body styles */
-body {
-    background-color: EEEDFF;
+/* Font import */
+body
+p {
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+body
+{
+    background-color: #8a7fd2;
 }
 
 .navigation-menu {
     background-color: #6a5acd; 
     padding: 10px 0;
+    text-align: center;
 }
 
 .navigation-menu ul {
@@ -24,10 +31,13 @@ body {
     text-decoration: none;
     padding: 10px 20px;
     transition: background-color 0.3s, color 0.3s;
+    font-family: 'Oxanium', sans-serif;
 }
 
-.navigation-menu a:hover,
+
 .navigation-menu a:focus {
     background-color: #fff; 
     color: #6a5acd;
 }
+
+

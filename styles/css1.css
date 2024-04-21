@@ -48,3 +48,267 @@
     text-shadow: 0 0 20px rgba(106, 90, 205, 0.8);
     font-family: 'Oxanium', sans-serif;
 }
+
+/* Styling the About Fenris section */
+#about-fenris {
+    background-color: #8175ca;
+    color: #d3d3d3;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#about-fenris h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    align-self: flex-start; 
+}
+
+#about-fenris .content-wrapper {
+    flex-basis: 60%;
+}
+
+#about-fenris p {
+    text-align: left;
+    margin-bottom: 2rem;
+    margin-right: 20%;
+}
+
+#about-fenris img {
+
+    max-width: 30%;
+    height:30%;
+    border-radius: 10px;
+    margin-left: auto;
+}
+
+
+/* Styling the About SerenMind section */
+
+#about-serenmind {
+    background-color: #EEEDFF;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#about-serenmind h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #887BB0;
+}
+
+#about-serenmind .content-wrapper {
+    max-width: 60%;
+    margin-bottom: 2rem;
+}
+
+#about-serenmind p {
+    color: #150556;
+    text-align: center;
+    font-size: 1.1rem;
+    text-shadow: 0 0 20px #6a5acdcc;
+}
+
+#about-serenmind img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/* Styling the Offerings section */
+
+.offerings-section {
+
+    background-color: #8d83cc;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.offerings-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #150556;
+}
+
+.offerings-section .content-wrapper {
+    max-width: 60%;
+    margin-bottom: 2rem; 
+}
+
+.offerings-section p {
+    margin-bottom: 2rem;
+    color:#150556;
+    font-size: 1.1rem;
+}
+
+.offerings-section img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 10px;
+    border-color: #150556;
+}
+
+.offerings-section .explore-button {
+    padding: 0.5rem 1rem;
+    background-color: #887BB0;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.offerings-section .explore-button:hover {
+    background-color: #6a5acd; 
+}
+
+/*Review section*/
+
+.reviews-section {
+    text-align: center;
+    padding: 2rem;
+    background-color:#a08fc5;
+}
+
+.reviews-section h2 {
+    font-family: 'Orbitron', sans-serif;
+    color:#241D55;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.review {
+    margin-bottom: 2rem;
+}
+
+.review p {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.review strong {
+    font-weight: bold;
+    color: #2b2457;
+}
+
+.accordion-container h2 {
+    text-align: center;
+    color:#241D55;
+    font-family: 'Oxanium', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+  
+  .accordion-btn {
+    text-align: center;
+    background-color: #E8DAF4;
+    font-family: 'Oxanium', sans-serif;
+    color: #241D55;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 1.2rem;
+  }
+  
+  .accordion-btn.active, .accordion-btn:hover {
+    background-color: #B79FC8;
+    color: #43074a;
+  }
+  
+  .accordion-panel {
+    padding: 0 18px;
+    background-color: #E0C7EB;
+    overflow: hidden;
+    display: none;
+    border-radius: 12px;
+  }
+  
+  .accordion-panel.active-panel {
+    display: block;
+  }
+  
+  .accordion-panel p {
+    color: #241D55;
+    font-family: 'Ysabeau Infant', sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  /*Footer*/
+
+  footer {
+    background-color: #887BB0;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Oxanium', sans-serif;
+  }
+  
+  footer form {
+    margin-bottom: 20px;
+  }
+  
+  footer label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  footer input[type="text"],
+  footer input[type="email"],
+  footer textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    font-family: 'Ysabeau Infant', sans-serif;
+  }
+  
+  footer textarea {
+    height: 150px;
+  }
+  
+  footer button[type="submit"] {
+    background-color: #E8DAF4;
+    color: #241D55;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Oxanium', sans-serif;
+  }
+  
+  footer button[type="submit"]:hover {
+    background-color: #B79FC8;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  footer a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
