@@ -29,7 +29,6 @@
     max-width: 50%;
 }
 
-
 /* Styling the accordion container */
 .accordion {
     margin-top: 20px;
@@ -50,12 +49,10 @@
 
 /* Styling the accordion header */
 .accordion-header {
-    font-size: 1.0rem;
-}
     background-color: #6A5ACD;
     color: #ffffff;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.0rem;
+    font-size: 1.0 rem;
     padding: 15px;
     border: none;
     border-radius: 5px;
@@ -83,6 +80,13 @@
     border: 5px solid silver;
     border-radius: 20px;
     max-width: 80%;
+}
+/* Styling the accordion paragraph */
+.accordion-content p {
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: center;
 }
 /* Styling the accordion paragraph */
 .accordion-content p {
