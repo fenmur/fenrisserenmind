@@ -1,12 +1,11 @@
-/* Font import */
-body
-p {
+body {
+    margin: 0;
+    padding: 0;
     font-family: 'Ysabeau Infant', sans-serif;
-}
-
-body
-{
     background-color: #8a7fd2;
+    background-image: url('assets/pic1.jpg');
+    background-size: cover;
+    background-position: center bottom;
 }
 
 .navigation-menu {
@@ -39,5 +38,6 @@ body
     background-color: #fff; 
     color: #6a5acd;
 }
+
 
 

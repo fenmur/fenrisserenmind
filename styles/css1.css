@@ -13,15 +13,15 @@
 }
 
 .hero-image {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position:absolute;
     width: 100%;
     height: 100%;
     background-image: url('assets/pic1.jpg');
     background-size: cover;
     background-position: center bottom;
     z-index: -1;
+    align-items: center;
+    
 }
 
 
@@ -47,6 +47,9 @@
     color: #9370db;
     text-shadow: 0 0 20px rgba(106, 90, 205, 0.8);
     font-family: 'Oxanium', sans-serif;
+}
+.hero-content img {
+    width: 50%
 }
 
 /* Styling the About Fenris section */
@@ -80,7 +83,8 @@
 
     max-width: 30%;
     height:30%;
-    border-radius: 10px;
+    border: 5px solid silver;
+    border-radius: 20px;
     margin-left: auto;
 }
 
@@ -153,8 +157,8 @@
 .offerings-section img {
     max-width: 70%;
     height: auto;
-    border-radius: 10px;
-    border-color: #150556;
+    border: 5px solid silver;
+    border-radius: 20px;
 }
 
 .offerings-section .explore-button {
@@ -312,3 +316,9 @@
     text-decoration: underline;
   }
   
+  .video-container {
+    width: 100%;
+    max-width: 560px;
+    margin-bottom: 20px;
+}
+

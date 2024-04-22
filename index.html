@@ -20,20 +20,20 @@
 
 <body>
 
-<header class="hero-container">
-    <div class="hero-image">
-        <img src="assets/pic1.jpg" alt="SerenMind: Explore Your Journey">
-    </div>
-    <div class="hero-content">
-        <h1>Explore Your Journey with SerenMind</h1>
-        <h2>Discover Peace, Mindfulness, and Wellness</h2>
-    </div>
-</header>
+    <header class="hero-container">
+        <div class="hero-image">
+            <img src="assets/pic1.jpg" alt="SerenMind: Explore Your Journey" class="bottom-aligned">
+        </div>
+        <div class="hero-content">
+            <h1>Explore Your Journey with SerenMind</h1>
+            <h2>Discover Peace, Mindfulness, and Wellness</h2>
+            <img src="assets/logo.jpg" alt="SerenMind: Explore Your Journey">
+        </div>
+    </header>
 
 <nav class="navigation-menu">
     <ul>
         <li><a href="#about-serenmind">About SerenMind</a></li>
-        <li><a href="#about">About</a></li>
         <li><a href="index3.html">Plans</a></li>
         <li><a href="index2.html">Features</a></li>
         <li><a href="#contact-us">Contact Us</a></li>
@@ -62,7 +62,7 @@
         <img src="assets/pic2.jpg" alt="Image illustrating the offerings of SerenMind">
         <p>We've been through that too... We've got a lot to bring to the table! Let's go on an adventure and see what choices you have!</p>
     </div>
-    <a href="html2.html" class="explore-button">Click to explore!</a>
+    <a href="index2.html" class="explore-button">Click to explore!</a>
 </section>
 
 
@@ -108,6 +108,9 @@
 
 <section class="container accordion-container">
     <h2>Questions & Answers</h2>
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ccrsl309utM" frameborder="0" allowfullscreen></iframe>
+    </div>
   
     <div class="accordion-item">
       <button class="accordion-btn">What makes SerenMind unique?</button>
@@ -146,7 +149,7 @@
   </section>
   
 
-<footer>
+  <footer id="contact-us">
     <form action="/submit" method="post">
         <label for="name">Your Name:</label>
         <input type="text" id="name" name="name" placeholder="Enter your name" required>

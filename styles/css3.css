@@ -1,0 +1,181 @@
+.hero-container {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero-content h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5rem;
+}
+
+.hero-content h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #666;
+}
+
+/* Navigation */
+.navigation-menu {
+    background-color: #6A5ACD;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.navigation-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.navigation-menu ul li a:hover {
+    color: #ccc;
+}
+
+/* Plans Section */
+
+.plans-section img {
+    width: 50%;
+    height: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    align-items: center;
+    border: 5px solid silver;
+    border-radius: 20px;
+}
+
+.plans-section .paragraph {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    color:#241D55;
+    text-align:center;
+    font-size: larger;
+}
+
+.plans-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.plan {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    width: 250px;
+}
+
+.plan h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #3c1683;
+}
+
+.plan p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    color: #511f83;
+    margin-bottom: 10px;
+}
+
+.plan .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #6A5ACD;
+}
+
+.plan button {
+    background-color: #6A5ACD;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.plan button:hover {
+    background-color: #887BB0;
+}
+
+
+ /*Footer*/
+
+ footer {
+    background-color: #887BB0;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Oxanium', sans-serif;
+  }
+  
+  footer form {
+    margin-bottom: 20px;
+  }
+  
+  footer label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  footer input[type="text"],
+  footer input[type="email"],
+  footer textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    font-family: 'Ysabeau Infant', sans-serif;
+  }
+  
+  footer textarea {
+    height: 150px;
+  }
+  
+  footer button[type="submit"] {
+    background-color: #E8DAF4;
+    color: #241D55;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Oxanium', sans-serif;
+  }
+  
+  footer button[type="submit"]:hover {
+    background-color: #B79FC8;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  footer a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
