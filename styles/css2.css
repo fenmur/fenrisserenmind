@@ -29,6 +29,7 @@
     max-width: 50%;
 }
 
+
 /* Styling the accordion container */
 .accordion {
     margin-top: 20px;
@@ -36,6 +37,7 @@
     flex-direction: column;
     align-items: center;
 }
+
 
 /* Styling the accordion item */
 .accordion-item {
@@ -51,7 +53,7 @@
     background-color: #6A5ACD;
     color: #ffffff;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.0 rem;
     padding: 15px;
     border: none;
     border-radius: 5px;
@@ -72,21 +74,21 @@
 }
 
 /* Styling the accordion image */
-.accordion-content img {
-    float: right;
-    margin-left: 10px;
-    width: 200px; /* Increased image width */
-    height: auto;
-}
 
+.accordion-content img {
+    display: block;
+    margin: 10px auto;
+    border: 5px solid silver;
+    border-radius: 20px;
+    max-width: 80%;
+}
 /* Styling the accordion paragraph */
 .accordion-content p {
     font-family: 'Ysabeau Infant', sans-serif;
     font-size: 1rem;
     color: #ffffff;
-    text-align: left;
+    text-align: center;
 }
-
  /*Footer*/
 
  footer {
@@ -158,3 +160,4 @@ footer a:hover {
 .explore-button:hover {
     background-color: #B79FC8;
 }
+
