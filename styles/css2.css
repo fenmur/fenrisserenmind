@@ -37,7 +37,6 @@
     align-items: center;
 }
 
-
 /* Styling the accordion item */
 .accordion-item {
     background-color: #887BB0;
@@ -52,7 +51,7 @@
     background-color: #6A5ACD;
     color: #ffffff;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.0 rem;
+    font-size: 1.5rem;
     padding: 15px;
     border: none;
     border-radius: 5px;
@@ -73,28 +72,21 @@
 }
 
 /* Styling the accordion image */
-
 .accordion-content img {
-    display: block;
-    margin: 10px auto;
-    border: 5px solid silver;
-    border-radius: 20px;
-    max-width: 80%;
+    float: right;
+    margin-left: 10px;
+    width: 200px; /* Increased image width */
+    height: auto;
 }
+
 /* Styling the accordion paragraph */
 .accordion-content p {
     font-family: 'Ysabeau Infant', sans-serif;
     font-size: 1rem;
     color: #ffffff;
-    text-align: center;
+    text-align: left;
 }
-/* Styling the accordion paragraph */
-.accordion-content p {
-    font-family: 'Ysabeau Infant', sans-serif;
-    font-size: 1rem;
-    color: #ffffff;
-    text-align: center;
-}
+
  /*Footer*/
 
  footer {
