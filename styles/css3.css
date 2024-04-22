@@ -45,16 +45,6 @@
 
 /* Plans Section */
 
-.plans-section img {
-    width: 300px;
-    height: 300px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: block;
-    border: 5px solid silver;
-    border-radius: 20px;
-}
-
 
 .plans-section .p {
     font-family: 'Josefin Sans', sans-serif;
