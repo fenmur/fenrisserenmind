@@ -12,6 +12,10 @@ body {
     background-color: #6a5acd; 
     padding: 10px 0;
     text-align: center;
+    position: sticky;
+    top: 0;
+}
+
 }
 
 .navigation-menu ul {
