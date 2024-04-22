@@ -31,6 +31,7 @@
 }
 
 /* Styling the hero header */
+
 .hero-content h1 {
     font-family: 'Josefin Sans', sans-serif;
     color: #6a5acd;
@@ -51,6 +52,7 @@
 .hero-content img {
     width: 50%
 }
+
 
 /* Styling the About Fenris section */
 #about-fenris {
@@ -205,6 +207,8 @@
     color: #2b2457;
 }
 
+/*Accordion section*/
+
 .accordion-container h2 {
     text-align: center;
     color:#241D55;
@@ -252,6 +256,8 @@
     font-size: 1.2rem;
   }
   
+  /*Footer section*/
+
   footer {
     background-color: #887BB0;
     color: #ffffff;
@@ -312,3 +318,23 @@ footer a:hover {
     border-radius: 20px;
     align-items: center;
 }
+
+#quote-button {
+    background-color: #6A5ACD;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+    transition: background-color 0.3s;
+    align-items: center;
+}
+
+#quote-button:hover {
+    background-color: #483D8B;
+}
+

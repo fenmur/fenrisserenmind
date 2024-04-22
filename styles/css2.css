@@ -90,6 +90,7 @@
     text-align: center;
 }
  /*Footer*/
+
  footer {
     background-color: #887BB0;
     color: #ffffff;
@@ -139,4 +140,23 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.explore-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #887BB0;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.explore-button:hover {
+    background-color: #B79FC8;
 }

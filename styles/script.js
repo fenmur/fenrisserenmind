@@ -24,3 +24,12 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+document.addEventListener("DOMContentLoaded", function() {
+    const quoteButton = document.getElementById("quote-button");
+
+    quoteButton.addEventListener("click", function() {
+        quoteButton.textContent = "You are loved. And you are seen.";
+    });
+});
+
+
