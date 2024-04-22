@@ -46,18 +46,17 @@
 /* Plans Section */
 
 .plans-section img {
-    width: 50%;
-    height: 50%;
+    width: 300px;
+    height: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     display: block;
-    align-items: center;
-    border: 5px; solid silver;
+    border: 5px solid silver;
     border-radius: 20px;
 }
-}
 
-.plans-section .paragraph {
+
+.plans-section .p {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1rem;
     color:#241D55;
