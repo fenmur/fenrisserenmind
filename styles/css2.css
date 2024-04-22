@@ -50,10 +50,12 @@
 
 /* Styling the accordion header */
 .accordion-header {
+    font-size: 1.0rem;
+}
     background-color: #6A5ACD;
     color: #ffffff;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.0 rem;
+    font-size: 1.0rem;
     padding: 15px;
     border: none;
     border-radius: 5px;
