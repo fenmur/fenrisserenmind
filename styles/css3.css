@@ -46,8 +46,8 @@
 /* Plans Section */
 
 .plans-section img {
-    width: 300px;
-    height: auto;
+    width: 100px;
+    height: 100;
     margin-top: 20px;
     margin-bottom: 20px;
     display: block;
